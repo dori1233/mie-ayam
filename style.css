@@ -1,0 +1,110 @@
+.container-fluid {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.nav {
+    padding-top: 19px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+a:before,
+a:after{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 0;
+    background: orangered;
+    transition: .5s;
+}
+
+a:after {
+    left: 0;
+    bottom: -10px;
+}
+
+a:before {
+    right: 0;
+    top: -10px;
+}
+a:hover:after,
+a:hover:before{
+    width: 100%;
+}
+/* bagian payment footer*/
+
+.container-footer-payment {
+    background-color: black;
+    height: 10vh;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* bagian index footer */
+.container-footer-index {
+    background-color: black;
+    height: 10vh;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/* bagian about footer */
+.container-footer-about {
+    background-color: black;
+    height: 10vh;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container-footer-contact-me {
+    background-color: black;
+    height: 10vh;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-option-value {
+    justify-content: right;
+}
+
+.container-span {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 50px;
+    font-size: 50px;
+    height: 50px;
+    color: orange;
+}
